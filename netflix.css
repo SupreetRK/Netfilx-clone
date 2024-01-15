@@ -1,0 +1,555 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./nimage/netbgimg.jpg);
+    height: 45vh;
+    background-position-x: right;
+    background-position-x: -207px;
+    background-position-y: 56%;
+    background-repeat: no-repeat;
+    
+}
+
+#body{
+    width: 79%;
+}
+#left img{
+   width: 11rem;
+   height: 3.5rem;
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+   
+  
+}
+#cont img{
+    width: 6rem;
+  
+    height: 1.5rem;
+    position: absolute;
+    right: 23rem;
+    
+}
+#cont button{
+    margin-left: 2rem;
+}
+#lang{
+    border:  -27px solid white;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    background-color: transparent;
+    position: relative;
+}
+#sign{
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    border-radius: 5px;
+    
+
+    
+    background-color: red;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0% 11% ;
+
+}
+#netflix{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+#netflix h1{
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 3px;
+
+    font-family: 'Kanit', sans-serif;
+    margin-top: 1rem;
+    
+
+}
+#body h1{
+    padding: 0% 0%;
+    margin-top: 10%;
+    margin-bottom: 0;
+    width: 100%;
+}
+#body #bp1{
+    margin-bottom: 0;
+    font-size: 1.6rem;
+    margin-top: 1.2%;
+}
+#body #bp2{
+    margin: 0;
+    font-size: 20px;
+}
+
+#bodyb .pa{
+    width: 31%;
+    height: 3.5rem;
+    border: 2px solid rgb(202, 204, 205);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.61);
+    margin-right: 5px;
+
+}
+#bodyb .ps{
+    width: 20%;
+    height: 3.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.877)
+
+}
+#bodyb{
+    display: flex;
+    justify-content: center;
+    
+}
+#bodyb .ps h2{
+    margin: 0;
+    padding: 0;
+    font-size:250% ;
+    color: white;
+    font-weight: bolder;
+   text-align: center;
+}
+#em{
+    color: white;
+    font-size: 1rem;
+}
+body #maa{
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.553);
+    height: 205%
+}
+.tvd{
+    width: 100%;
+
+    background-color: rgb(0, 0, 0);
+    height: 85%;
+    margin-top: 1rem;
+    width: 100%;
+
+
+}
+#tvd{
+    margin-top: 9rem ;
+}
+
+
+
+
+
+#tv{
+   
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+#tvleft{
+    width: 50%;
+
+}
+#tvrigth{
+    width: 45%;
+    position: relative;
+}
+#tvleft h1{
+    font-size: 2.5rem;
+
+        
+}
+#tvleft p{
+font-size: 1.5rem;
+}
+#tvrigth{
+    width: 50%;
+}
+#tvrigth img{
+width: 100%;
+position:relative;
+z-index: 2;
+}
+#tvrigth video{
+    position: absolute;
+    left: 13.2%;
+    top: 20.6%;
+    width: 73%;
+    z-index: 1;
+}
+.tvd #tv2{
+    height: 100%;
+}
+
+#tv2{
+   
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+#tv2 #tvleft2{
+    width: 50%;
+    height: 100%;
+
+}
+#tv2 #tvleft2 img{
+    width: 100%;
+height: 80%;
+}
+#tvrigth2{
+    width: 45%;
+    position: relative;
+}
+
+#tvrigth2 h1{
+    font-size: 2.5rem;
+    
+
+        
+}
+#tvrigth2 p{
+font-size: 1.5rem;
+}
+#tvrigth2{
+    width: 50%;
+}
+#tvrigth2 img{
+width: 100%;
+position:relative;
+z-index: 2;
+}
+#tvleft2 #abox {
+    
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 3.5% 15%;
+    display: block;
+    position: relative;
+    top: -8rem;
+    margin: -2rem 64rem;
+    margin-left: 3rem;
+    background-color: black;
+    width: 9rem;
+    height: 4rem;
+    left: 15%;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#abox #st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    width: 40%;
+    position: relative;
+    left: -116%;
+
+
+
+}
+#abox #st video {
+    background: url(./nimage/animination.m4v.gif);
+    background-repeat: no-repeat;
+    background-size: 3rem;
+    position: absolute;
+    left: 14rem;
+    top: -12%;
+    display: block;
+    background: url(./nimage/animination.m4v.gif);
+    background-repeat: no-repeat;
+    background-size: 3rem;
+}
+#tvrigth2 video{
+    position: absolute;
+    right: 13.2%;
+    top: 20.6%;
+    width: 73%;
+    z-index: 1;
+}
+@media(max-width:600px){
+    #tv{
+   
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: black;
+    }
+    #tvleft{
+        width: 100%;
+    
+    }
+    #tvrigth{
+        width: 100%;
+        position: relative;
+    }
+}
+#tv3{
+   
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 3rem;
+}
+#tvleft3{
+    width: 50%;
+
+}
+#tvrigth3{
+    width: 45%;
+    position: relative;
+}
+#tvleft3 h1{
+    font-size: 2.5rem;
+
+        
+}
+#tvleft3 p{
+font-size: 1.5rem;
+}
+#tvrigth3{
+    width: 50%;
+}
+#tvrigth3 img{
+width: 100%;
+position:relative;
+z-index: 2;
+}
+#tvrigth3 video{
+    position: absolute;
+    left: 19.2%;
+    top: 8.6%;
+    width: 63%;
+    z-index: 1;
+}
+
+
+
+
+.tvd #tv4{
+    height: 100%;
+}
+
+#tv4{
+   
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+#tv4 #tvleft4{
+    width: 50%;
+    height: 100%;
+
+}
+#tv4 #tvleft4 img{
+    width: 100%;
+height: 80%;
+}
+#tvrigth4{
+    width: 45%;
+    position: relative;
+}
+
+#tvrigth4 h1{
+    font-size: 2.5rem;
+    
+
+        
+}
+#tvrigth4 p{
+font-size: 1.5rem;
+}
+#tvrigth4{
+    width: 50%;
+}
+#tvrigth4 img{
+width: 100%;
+position:relative;
+z-index: 2;
+}
+#tvleft4 #abox {
+    
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 3.5% 15%;
+    display: block;
+    position: relative;
+    top: -8rem;
+    margin: -2rem 64rem;
+    margin-left: 3rem;
+    background-color: black;
+    width: 9rem;
+    height: 4rem;
+    left: 15%;
+    font-size: 10px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tv5 #id5{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 5rem;
+    font-weight: bolder;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+    
+
+}
+#tvleft5 div{
+    width: 71%;
+    height: 50%;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 3%;
+    margin: 1% 0%;
+    position: relative;
+    left: 10rem;
+color: white;
+}
+#tvleft5 h1{
+    font-weight: lighter;
+}
+#tvd5{
+    background-color: black;
+    height: 120vh;
+}
+#bodyb2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#bodyb .pa{
+    width: 31%;
+    height: 3.5rem;
+    border: 2px solid rgb(202, 204, 205);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.61);
+    margin-right: 5px;
+
+}
+#bodyb .ps{
+    width: 20%;
+    height: 3.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.877)
+
+}
+#bodyb{
+    display: flex;
+    justify-content: center;
+    
+}
+#faqin{
+align-items: center;
+}
+#bodyb .ps h2{
+    margin: 0;
+    padding: 0;
+    font-size:250% ;
+    color: white;
+    font-weight: bolder;
+   text-align: center;
+}
+.fb{
+    color: white;
+   display: flex;
+   margin-left: 20%;
+   font-size: 1.7rem;
+}
+
+#foot{
+    width: 100%;
+    background-color: rgb(0 0 0 / 71%);
+    height: 12rem;
+    padding-top: 1%;
+    padding-bottom: 0px;
+}
+#foot footer{
+    height: 240%;
+    width: 97%;
+    background-color: black;
+    padding: 0% 11%;
+    margin-top: 1rem;
+    
+}
+#foot #fh{
+    display: flex;
+    align-items: center;
+    margin-top: -1rem;
+    padding-top: 3.5rem;
+}
+#fh h4{
+    color: grey;
+    font-size: 17px;
+    padding-right: 1rem
+}
+#foot #fb{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}
+#fb div{
+    width: 25%;
+}
+#fb a{
+    font-size: 1rem;
+} 
+#fb ul{
+    padding: 0;
+    list-style-type: none;
+}
+#foot a{
+    color: grey;
+}
+#fb li{
+    padding: 3% 0%;
+}
